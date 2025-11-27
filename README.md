@@ -31,27 +31,27 @@ This application goes beyond basic arithmetic, offering a comprehensive tool for
 ### 1. Overview & Themes
 | Main Interface | Light Theme | Dark Theme |
 |:---:|:---:|:---:|
-| ![Main](screenshots/main.png) | ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+| ![Main](assets/screenshots/main.png) | ![Light](assets/screenshots/light.png) | ![Dark](assets/screenshots/dark.png) |
 
 ### 2. Basic & Scientific Modes
 | Basic Operations | Scientific Features | Calculation |
 |:---:|:---:|:---:|
-| ![Basic 1](screenshots/basic_1.png) | ![Scientific](screenshots/scientific_2.png) | ![Basic 2](screenshots/basic_2.png) |
+| ![Basic 1](assets/screenshots/basic_1.png) | ![Scientific](assets/screenshots/scientific_2.png) | ![Basic 2](assets/screenshots/basic_2.png) |
 
 ### 3. Programmer Mode
 | Bitwise Ops | Hex/Bin Conversion | Keypad |
 |:---:|:---:|:---:|
-| ![Prog 1](screenshots/programmer.png) | ![Prog 2](screenshots/programmer_1.png) | ![Prog 3](screenshots/programmer_3.png) |
+| ![Prog 1](assets/screenshots/programmer.png) | ![Prog 2](assets/screenshots/programmer_1.png) | ![Prog 3](assets/screenshots/programmer_3.png) |
 
 ### 4. History & Settings
 | History Log | Settings Menu | Theme Selection |
 |:---:|:---:|:---:|
-| ![History](screenshots/history.png) | ![Settings](screenshots/settings.png) | ![Theme Set](screenshots/settings_theme.png) |
+| ![History](assets/screenshots/history.png) | ![Settings](assets/screenshots/settings.png) | ![Theme Set](assets/screenshots/settings_theme.png) |
 
 ### 5. Customization Details
 | Angle Mode | Decimal Precision | History Config |
 |:---:|:---:|:---:|
-| ![Angle](screenshots/settings_angle_mode.png) | ![Decimal](screenshots/settings_decimal_precision.png) | ![Hist Conf](screenshots/settings_history.png) |
+| ![Angle](assets/screenshots/settings_angle_mode.png) | ![Decimal](assets/screenshots/settings_decimal_precision.png) | ![Hist Conf](assets/screenshots/settings_history.png) |
 
 ## 🏗 Architecture Diagram
 
