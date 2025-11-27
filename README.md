@@ -31,7 +31,7 @@ This application goes beyond basic arithmetic, offering a comprehensive tool for
 ### 1. Overview & Themes
 | Main Interface | Light Theme | Dark Theme |
 |:---:|:---:|:---:|
-| ![Main](assets/screenshots/main.png) | ![Light](assets/screenshots/light.png) | ![Dark](assets/screenshots/dark.png) |
+| ![Main](assets/screenshots/main.png) | ![Light](assets/screenshots/main.png) | ![Dark](assets/screenshots/dark.png) |
 
 ### 2. Basic & Scientific Modes
 | Basic Operations | Scientific Features | Calculation |
@@ -56,26 +56,6 @@ This application goes beyond basic arithmetic, offering a comprehensive tool for
 ## 🏗 Architecture Diagram
 
 The project follows a clean **Layered Architecture** separated by features and responsibilities, managed by `Provider`.
-
-```mermaid
-graph TD
-    UI[Screens & Widgets] --> Providers[State Management]
-    Providers --> Logic[Utils & Parsers]
-    Providers --> Services[Data Persistence]
-    
-    subgraph "Presentation Layer"
-    UI
-    end
-    
-    subgraph "Logic Layer"
-    Providers
-    Logic
-    end
-    
-    subgraph "Data Layer"
-    Services
-    Models
-    end
 
     structure:
     lib/
