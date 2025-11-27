@@ -59,27 +59,30 @@ The project follows a clean **Layered Architecture** separated by features and r
 
     structure:
     lib/
-├── main.dart                  # Entry point, Theme setup, MultiProvider
-├── models/                    # Data models
+### File Structure
+```text
+lib/
+├── main.dart                   # Entry point, Theme setup, MultiProvider
+├── models/                     # Data models
 │   ├── calculation_history.dart
 │   ├── calculator_mode.dart
 │   └── calculator_settings.dart
-├── providers/                 # State Management (ChangeNotifier)
-│   ├── calculator_provider.dart  # Core logic & State
-│   ├── history_provider.dart     # History list management
-│   └── theme_provider.dart       # Theme switching logic
-├── screens/                   # UI Pages
-│   ├── calculator_screen.dart    # Main interface
-│   ├── history_screen.dart       # History list view
-│   └── settings_screen.dart      # User preferences
-├── services/                  # External services
-│   └── storage_service.dart      # Shared_preferences wrapper
-├── utils/                     # Pure logic & Helpers
-│   ├── calculator_logic.dart     # Math logic
-│   ├── expression_parser.dart    # String parsing (math_expressions)
-│   ├── programmer_calculator.dart# Base conversion logic
-│   └── constants.dart            # Strings & Configs
-└── widgets/                   # Reusable UI Components
+├── providers/                  # State Management (ChangeNotifier)
+│   ├── calculator_provider.dart   # Core logic & State
+│   ├── history_provider.dart      # History list management
+│   └── theme_provider.dart        # Theme switching logic
+├── screens/                    # UI Pages
+│   ├── calculator_screen.dart     # Main interface
+│   ├── history_screen.dart        # History list view
+│   └── settings_screen.dart       # User preferences
+├── services/                   # External services
+│   └── storage_service.dart       # Shared_preferences wrapper
+├── utils/                      # Pure logic & Helpers
+│   ├── calculator_logic.dart      # Math logic
+│   ├── constants.dart             # Strings & Configs
+│   ├── expression_parser.dart     # String parsing (math_expressions)
+│   └── programmer_calculator.dart # Base conversion logic
+└── widgets/                    # Reusable UI Components
     ├── button_grid.dart
     ├── calculator_button.dart
     ├── display_area.dart
